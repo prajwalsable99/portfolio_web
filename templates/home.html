@@ -1,0 +1,905 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    
+    <title>Prajwal Sable</title>
+
+
+    <style>
+      html { scroll-behavior: smooth; }
+      .lang{
+
+        background-color: rgb(255, 255, 255);
+      }
+      .nav_hov{
+
+        color: azure;
+      }
+      .nav_hov:hover{
+         
+          color: black;
+          border-radius: 1rem;
+          background-color: aliceblue;
+          padding: 4px;
+
+        
+      }
+      #ct:hover{
+
+        color: white;
+      }
+
+
+
+
+    /* here            */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 4.8rem;
+  text-align: center;
+  width: 110rem;
+  max-width: 100%;
+}
+.soc li {
+  display: inline-block;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  height: 9.6rem;
+  width: 9.6rem;
+}
+
+.icon-32:hover, .icon-31:hover, .icon-30:hover, .icon-29:hover, .icon-28:hover, .icon-27:hover, .icon-26:hover, .icon-25:hover, .icon-24:hover, .icon-23:hover, .icon-22:hover, .icon-21:hover, .icon-20:hover, .icon-19:hover, .icon-18:hover, .icon-17:hover, .icon-16:hover, .icon-15:hover, .icon-14:hover, .icon-13:hover, .icon-12:hover, .icon-11:hover, .icon-10:hover, .icon-9:hover, .icon-8:hover, .icon-7:hover, .icon-6:hover, .icon-5:hover, .icon-4:hover, .icon-3:hover, .icon-2:hover, .icon-1:hover {
+  border-radius: 100%;
+  fill: #0e1a25;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+.icon-1 {
+  fill: #d94a26;
+}
+.icon-1:hover {
+  background: #d94a26;
+}
+
+.icon-2 {
+  fill: #d96e26;
+}
+.icon-2:hover {
+  background: #d96e26;
+}
+
+.icon-3 {
+  fill: #d99126;
+}
+.icon-3:hover {
+  background: #d99126;
+}
+
+.icon-4 {
+  fill: #d9b526;
+}
+.icon-4:hover {
+  background: #d9b526;
+}
+
+.icon-5 {
+  fill: #d9d926;
+}
+.icon-5:hover {
+  background: #d9d926;
+}
+
+.icon-6 {
+  fill: #b5d926;
+}
+.icon-6:hover {
+  background: #b5d926;
+}
+
+.icon-7 {
+  fill: #91d926;
+}
+.icon-7:hover {
+  background: #91d926;
+}
+
+.icon-8 {
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+
+.icon-9 {
+  fill: #4ad926;
+}
+.icon-9:hover {
+  background: #4ad926;
+}
+
+.icon-10 {
+  fill: #26d926;
+}
+.icon-10:hover {
+  background: #26d926;
+}
+
+.icon-11 {
+  fill: #26d94a;
+}
+.icon-11:hover {
+  background: #26d94a;
+}
+
+.icon-12 {
+  fill: #26d96e;
+}
+.icon-12:hover {
+  background: #26d96e;
+}
+
+.icon-13 {
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-14 {
+  fill: #26d9b5;
+}
+.icon-14:hover {
+  background: #26d9b5;
+}
+
+.icon-15 {
+  fill: #26d9d9;
+}
+.icon-15:hover {
+  background: #26d9d9;
+}
+
+.icon-16 {
+  fill: #26b5d9;
+}
+.icon-16:hover {
+  background: #26b5d9;
+}
+
+.icon-17 {
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
+
+.icon-18 {
+  fill: #266ed9;
+}
+.icon-18:hover {
+  background: #266ed9;
+}
+
+.icon-19 {
+  fill: #264ad9;
+}
+.icon-19:hover {
+  background: #264ad9;
+}
+
+.icon-20 {
+  fill: #2626d9;
+}
+.icon-20:hover {
+  background: #2626d9;
+}
+
+.icon-21 {
+  fill: #4a26d9;
+}
+.icon-21:hover {
+  background: #4a26d9;
+}
+
+.icon-22 {
+  fill: #6e26d9;
+}
+.icon-22:hover {
+  background: #6e26d9;
+}
+
+.icon-23 {
+  fill: #9126d9;
+}
+.icon-23:hover {
+  background: #9126d9;
+}
+
+.icon-24 {
+  fill: #b526d9;
+}
+.icon-24:hover {
+  background: #b526d9;
+}
+
+.icon-25 {
+  fill: #d926d9;
+}
+.icon-25:hover {
+  background: #d926d9;
+}
+
+.icon-26 {
+  fill: #d926b5;
+}
+.icon-26:hover {
+  background: #d926b5;
+}
+
+.icon-27 {
+  fill: #d92691;
+}
+.icon-27:hover {
+  background: #d92691;
+}
+
+.icon-28 {
+  fill: #d9266e;
+}
+.icon-28:hover {
+  background: #d9266e;
+}
+
+.icon-29 {
+  fill: #d9264a;
+}
+.icon-29:hover {
+  background: #d9264a;
+}
+
+.icon-30 {
+  fill: #d92626;
+}
+.icon-30:hover {
+  background: #d92626;
+}
+
+.icon-31 {
+  fill: #d94a26;
+}
+.icon-31:hover {
+  background: #d94a26;
+}
+
+.icon-32 {
+  fill: #d96e26;
+}
+.icon-32:hover {
+  background: #d96e26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 5% auto;
+}
+.timeline__event {
+  background: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+.timeline__event__title {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #9251ac;
+  letter-spacing: 1.5px;
+}
+.timeline__event__content {
+  padding: 20px;
+}
+.timeline__event__date {
+  color: #f6a4ec;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.timeline__event__icon {
+  border-radius: 8px 0 0 8px;
+  background: #9251ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  font-size: 2rem;
+  color: #9251ac;
+  padding: 20px;
+}
+.timeline__event__icon i {
+  position: absolute;
+  top: 50%;
+  left: -65px;
+  font-size: 2.5rem;
+  transform: translateY(-50%);
+}
+.timeline__event__description {
+  flex-basis: 60%;
+}
+.timeline__event:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #9251ac;
+  position: absolute;
+  top: 52%;
+  left: -3.5rem;
+  z-index: -1;
+}
+.timeline__event:before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  background: #f6a4ec;
+  border-radius: 100%;
+  left: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #9251ac;
+}
+.timeline__event--type2:before {
+  background: #87bbfe;
+  border-color: #555ac0;
+}
+.timeline__event--type2:after {
+  background: #555ac0;
+}
+.timeline__event--type2 .timeline__event__date {
+  color: #87bbfe;
+}
+.timeline__event--type2 .timeline__event__icon {
+  background: #555ac0;
+  color: #555ac0;
+}
+.timeline__event--type2 .timeline__event__title {
+  color: #555ac0;
+}
+.timeline__event--type3:before {
+  background: #aff1b6;
+  border-color: #24b47e;
+}
+.timeline__event--type3:after {
+  background: #24b47e;
+}
+.timeline__event--type3 .timeline__event__date {
+  color: #aff1b6;
+}
+.timeline__event--type3 .timeline__event__icon {
+  background: #24b47e;
+  color: #24b47e;
+}
+.timeline__event--type3 .timeline__event__title {
+  color: #24b47e;
+}
+.timeline__event:last-child:after {
+  content: none;
+}
+
+@media (max-width: 786px) {
+  .timeline__event {
+    flex-direction: column;
+  }
+
+  .timeline__event__icon {
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+     
+    </style>
+
+
+</head>
+
+ <!-- 1.home and navbar -->
+
+<body>
+    <header class="text-gray-600 body-font" style="background-color: rgb(4, 0, 8); "  id ="sec1"  >
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="../static/logo.png" class="w-10 h-10 text-white" >
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </img>
+            <!-- <img stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" > -->
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-white" >PortFolio</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center" >
+            <a class="mr-5 hover:text-gray-900 nav_hov" href="#sec1">Home</a>
+            <a class="mr-5 hover:text-gray-900 nav_hov" href="#sec2">Skills</a>
+            <a class="mr-5 hover:text-gray-900 nav_hov" href="#sec3">Projects</a>
+            <a class="mr-5 hover:text-gray-900 nav_hov" href="#sec4">Certifications</a>
+        
+            <a class="mr-5 hover:text-gray-900 nav_hov" href="#sec5">Contact</a>
+             
+          </nav>
+
+          
+      
+          <div class="mr-5 hover:text-gray-900 " id="ct"> </div>
+        
+    
+         
+        </div>
+    </header>
+    
+    <section class="text-gray-600 body-font " style='background:rgb(255, 255, 255);'>
+      <div class="container px-5 py-3 mx-auto flex flex-col">
+        <div class="lg:w-4/6 mx-auto">
+          
+          <div class="flex flex-col sm:flex-row mt-10">
+            <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+              <div class="w-35 h-35  inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                <img src="../static/intro.png" class="w-35 h-35 text-white" >
+              </div>
+              <div class="flex flex-col items-center text-center justify-center">
+                <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Prajwal Sable</h2>
+                <div class="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
+                <p class="text-base">Computer-science student ,noob coder and developer.</p>
+              </div>
+            </div>
+            <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-justify" >
+              <p class="leading-relaxed text-lg mb-4">So hey there,I am computer engineering student currently studying at DYPCOE,Akurdi(2023 graduating batch).If you are reading this then i would like you to  have a look at my profile so that you will get idea about my work.I personally like to work on data science,development and problem solving . 
+                 </p>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 body-font" id="sec2" style="background-color: rgb(40, 41, 44);">
+      <div class="container px-5 py-12 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Skills</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-green-500">Programming languages</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/python.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">Python</h2>
+                <p class="text-gray-500">Skleran,Pandas...</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/cpp.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">CPP</h2>
+                <p class="text-gray-500">DS -ALgos</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/java.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">Java</h2>
+                <p class="text-gray-500">Android</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/html5.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">web</h2>
+                <p class="text-gray-500">html-css-js</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/mongo.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">MongoDb</h2>
+                <p class="text-gray-500">DRUD,mongoose </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="../static/mysql.png">
+              <div class="flex-grow">
+                <h2 class="text-white title-font font-medium">Mysql</h2>
+                <p class="text-gray-500">dbms</p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="text-gray-600 body-font" style="background-color: rgb(40, 41, 44);">
+  <div class="container px-5  py-10 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1">Practice</h2>
+     
+    </div>
+    <div class="flex flex-wrap">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">GeeksForGeeks</h2>
+        <p class="leading-relaxed text-white mb-4">Algorithms</p>
+        <a class="text-indigo-500 inline-flex items-center" href="https://auth.geeksforgeeks.org/user/prajsa99/practice/" target="_blank">visit 
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">LeetCode</h2>
+        <p class="leading-relaxed text-white mb-4">Easy,Medium  coding questions solved</p>
+        <a class="text-indigo-500 inline-flex items-center" href="https://leetcode.com/prajsa99/" target="_blank">visit
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Hacker-Rank</h2>
+        <p class="leading-relaxed text-white mb-4">Beginner coding questions solved (python)</p>
+        <a class="text-indigo-500 inline-flex items-center" href="https://www.hackerrank.com/prajsa99" target="_blank">visit
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Codechef</h2>
+        <p class="leading-relaxed text-white mb-4">easy level problems</p>
+        <a class="text-indigo-500 inline-flex items-center" href="https://www.codechef.com/users/prajwal_9999" target="_blank">visit
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+   
+  </div>
+
+</section>
+
+
+
+<!-- 3 projects and work  -->
+
+
+<section class="text-gray-600 body-font" id="sec3" style="background-color: rgb(8, 7, 1);">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Projects</h1>
+        <div class="h-1 w-20 bg-green-500 rounded"></div>
+      </div>
+      
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+ 
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../static/pr1_720x400.png" alt="content" >
+          <a class="text-indigo-500 inline-flex items-center" href="https://github.com/prajwalsable99/starting_tkinter_projects" target="_blank">Python GUis</a>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Tkinter</h2>
+          <p class="leading-relaxed text-base">GUI like notepad,ms-paint</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../static/pr2_721x401.png" alt="content">
+          <a class="text-indigo-500 inline-flex items-center" href="https://github.com/prajwalsable99/spam_email_detect/tree/main" target="_blank">Spam email detection</a>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">NLP</h2>
+          <p> python SKlearn library</p>
+         
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../static/pr3_722x402.jpg" alt="content">
+          <a class="text-indigo-500 inline-flex items-center" href="https://github.com/prajwalsable99/android-ml-app" target="_blank">Anrdoid  app</a>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">car price precition</h2>
+          <p class="leading-relaxed text-base">linear regression model </p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../static/pr4_723x403.png" alt="content">
+          <a class="text-indigo-500 inline-flex items-center" href="https://github.com/prajwalsable99/first_website" target="_blank">sample website</a>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Html5,Vanilla CSS</h2>
+          <p class="leading-relaxed text-base">Web dev</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- certifi -->
+<section class="text-gray-600 body-font py-5" id="sec4"  >
+  <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" >
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black">Certifications</h1>
+    <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Programming languages</p> -->
+  </div>
+</section>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-12 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="../static/c.PNG" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Cloud Computing</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Google Cloud Certification</h1>
+        
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://www.coursera.org/account/accomplishments/specialization/RQXGP2FVWYF8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="../static/cer2.PNG" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">AI foundation</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Skill-up</h1>
+            
+            <div class="flex items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://github.com/prajwalsable99/certificates/blob/main/skillup_Ml.pdf" target="_blank">More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="../static/cer3.PNG" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Cyber Security</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cisco</h1>
+           
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://github.com/prajwalsable99/certificates/blob/main/PrajwalSable-Cybersecurity%20Es-certificate.pdf" target="_blank">More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<hr>
+<hr>
+
+
+
+
+
+
+
+<section class="text-gray-600 body-font " id="sec5" >
+  <div class="container px-5 py-5 mx-auto ">
+    <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md " >
+      <div class="lg:w-1/2 px-6">
+        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+        <p class="mt-1">Pabal,Pune,Maharashtra,India. 421403</p>
+      </div>
+      <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+        <a class="text-indigo-500 leading-relaxed">prajsa99@gmail.com</a>
+        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+        <p class="leading-relaxed">+91 7517780449</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="soc" style="background-color: black;">
+  
+
+
+ 
+  <li>
+    <a class="icon-13 github" href="https://github.com/prajwalsable99" target="_blank" title="GitHub">
+      <div class="ir">
+        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+          <path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"></path>
+        </svg>
+      </div>
+    </a>
+  </li>
+ 
+  
+  <li>
+    <a class="icon-26 twitter" href="https://twitter.com/Prajwal92957932" title="Twitter" target="_blank">
+      <div class="ir">
+        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+          <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
+        </svg>
+      </div>
+    </a>
+  </li>
+ 
+  <li>
+    <a class="icon-28 youtube" href="https://youtube.com/channel/UC6HyyQM_zFHH4V9F0lyy5MQ" title="YouTube" target="_blank">
+      <div class="ir">
+        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+          <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path>
+        </svg>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="icon-32 spotify" href="https://open.spotify.com/user/zxz166sob784l9qu6wd7rhufv?si=PSTQ8jM5QcuEpAHsfXFSAA&utm_source=copy-link " target="_blank" title="Spotify">
+      <div class="ir">
+        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+          <path d="M256 78c-98.3 0-178 79.7-178 178 0 98.31 79.7 178 178 178 98.31 0 178-79.69 178-178 0-98.3-79.69-178-178-178zm81.63 256.73a11.09 11.09 0 0 1-15.26 3.68c-41.8-25.53-94.4-31.31-156.37-17.16a11.1 11.1 0 0 1-4.93-21.64c67.8-15.49 125.96-8.82 172.88 19.86a11.1 11.1 0 0 1 3.68 15.26zm21.79-48.47a13.88 13.88 0 0 1-19.1 4.57c-47.84-29.4-120.77-37.92-177.36-20.74a13.9 13.9 0 0 1-17.32-9.25 13.9 13.9 0 0 1 9.25-17.3c64.65-19.62 145.01-10.12 199.96 23.64a13.87 13.87 0 0 1 4.56 19.08zm1.87-50.47c-57.37-34.07-152.02-37.2-206.8-20.58a16.65 16.65 0 1 1-9.66-31.87c62.88-19.08 167.4-15.4 233.45 23.81a16.63 16.63 0 0 1 5.82 22.82 16.63 16.63 0 0 1-22.8 5.82h-.01z"></path>
+        </svg>
+      </div>
+    </a>
+  </li>
+</ul>
+
+
+
+
+
+     
+    
+    
+
+
+
+
+
+
+
+
+
+    <script>
+      function showtime() {
+            ti = new Date();
+            console.log(ti);
+            document.getElementById('ct').innerHTML = ti;
+
+        }
+        setInterval(showtime, 1000);
+    </script>
+</body>
+</html>
